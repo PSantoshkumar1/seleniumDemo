@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Create: user Apwd: A1]]>
+    </line>
+    <line>
+      <![CDATA[Create: user Bpwd: B1]]>
+    </line>
+    <line>
+      <![CDATA[Create: user Cpwd: C1]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92" started-at="2019-10-23T16:51:11 IST" finished-at="2019-10-23T16:51:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92" started-at="2019-10-23T16:51:11 IST" finished-at="2019-10-23T16:51:11 IST">
+      <class name="com.testng.DataProviderDemo">
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderDemo@6536e911]" name="createUser" duration-ms="16" started-at="2019-10-23T16:51:11 IST" data-provider="getData" finished-at="2019-10-23T16:51:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create: user Apwd: A1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderDemo@6536e911]" name="createUser" duration-ms="16" started-at="2019-10-23T16:51:11 IST" data-provider="getData" finished-at="2019-10-23T16:51:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user C]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create: user Cpwd: C1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderDemo@6536e911]" name="createUser" duration-ms="0" started-at="2019-10-23T16:51:11 IST" data-provider="getData" finished-at="2019-10-23T16:51:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create: user Bpwd: B1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.testng.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
