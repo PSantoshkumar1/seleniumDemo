@@ -1,79 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Create: user Apwd: A1]]>
-    </line>
-    <line>
-      <![CDATA[Create: user Bpwd: B1]]>
-    </line>
-    <line>
-      <![CDATA[Create: user Cpwd: C1]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92" started-at="2019-10-23T16:51:11 IST" finished-at="2019-10-23T16:51:11 IST">
+  <suite name="Default suite" duration-ms="110629" started-at="2019-10-25T09:50:35 IST" finished-at="2019-10-25T09:52:26 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92" started-at="2019-10-23T16:51:11 IST" finished-at="2019-10-23T16:51:11 IST">
-      <class name="com.testng.DataProviderDemo">
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderDemo@6536e911]" name="createUser" duration-ms="16" started-at="2019-10-23T16:51:11 IST" data-provider="getData" finished-at="2019-10-23T16:51:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user A]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[A1]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="110629" started-at="2019-10-25T09:50:35 IST" finished-at="2019-10-25T09:52:26 IST">
+      <class name="com.assignment.Assignment24">
+        <test-method status="PASS" signature="beforeC()[pri:0, instance:com.assignment.Assignment24@731a74c]" name="beforeC" is-config="true" duration-ms="16" started-at="2019-10-25T09:50:35 IST" finished-at="2019-10-25T09:50:35 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Create: user Apwd: A1]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderDemo@6536e911]" name="createUser" duration-ms="16" started-at="2019-10-23T16:51:11 IST" data-provider="getData" finished-at="2019-10-23T16:51:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user C]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeC -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.assignment.Assignment24@731a74c]" name="beforeM" is-config="true" duration-ms="15277" started-at="2019-10-25T09:50:35 IST" finished-at="2019-10-25T09:50:51 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Create: user Cpwd: C1]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderDemo@6536e911]" name="createUser" duration-ms="0" started-at="2019-10-23T16:51:11 IST" data-provider="getData" finished-at="2019-10-23T16:51:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user B]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[B1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.assignment.Assignment24@731a74c]" name="test1" duration-ms="95214" started-at="2019-10-25T09:50:51 IST" finished-at="2019-10-25T09:52:26 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Create: user Bpwd: B1]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- com.testng.DataProviderDemo -->
+        </test-method> <!-- test1 -->
+      </class> <!-- com.assignment.Assignment24 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

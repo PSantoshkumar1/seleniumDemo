@@ -12,7 +12,7 @@ public class ReadData {
 	@DataProvider
 	public String [][] CreateUser() throws Exception {
 		String[][] s;
-		String path="";
+		String path="‪C:\\Users\\sai\\Desktop\\IMP notes QSPIDERS\\project\\BCG defeat.xlsx";
 		Workbook excel=WorkbookFactory.create(new FileInputStream(path));
 		org.apache.poi.ss.usermodel.Sheet sheet =excel.getSheet("sheet1");
 		s=new String[sheet.getPhysicalNumberOfRows()-1][sheet.getRow(0).getLastCellNum()];
